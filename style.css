@@ -13,6 +13,58 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.hero {;
+  position: relative;
+  background-image: url('./public/assets/iteration-1/home-banner.png');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  min-height: 60vh;
+}
+.logo {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.5rem;
+}
+.logo img {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero-content {
+   margin-top: 10px;
+}
+.special-font {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.6rem;
+  margin: 0;
+  line-height: 1;;
+  color: #f7df1e;
+}
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0.2rem 0 0.4rem;
+  color: white;
+}
+.hero-content .cta {
+  display: inline-block;
+  padding: 0;
+  background-color: #f7df1e;
+  color: black;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0.4rem 1rem;
+}
 
 a {
   font-weight: 500;
